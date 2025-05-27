@@ -32,7 +32,7 @@ const Weather = () => {
     setError("");
     try {
       const res = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=3dc4e486280147cce43c7d677958fcf9`
+        `https:/api.openweathermap.org/data/2.5/weather?q=${city}&appid=3dc4e486280147cce43c7d677958fcf9`
        
 
       );
