@@ -32,7 +32,9 @@ const Weather = () => {
     setError("");
     try {
       const res = await fetch(
-        `https:api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
+        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
+       
+
       );
 
       const jsonData = await res.json();
