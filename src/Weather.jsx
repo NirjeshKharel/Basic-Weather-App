@@ -128,7 +128,7 @@ const Weather = () => {
             </div>
 
             <div className="flex justify-center gap-4 items-center">
-              <img src="./public/wind.png" alt="" width={24} h={24} />
+              <img src="./wind.png" alt="wind" width={24} h={24} />
               <p className="text-xl text-white">
                 Wind Speed: {response.wind.speed} km/h
               </p>
